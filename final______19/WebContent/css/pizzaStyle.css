@@ -1,0 +1,669 @@
+.dropdown-content{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+	z-index: 1;
+}
+@font-face {
+  font-family: '동그라미재단M.ttf';
+  src: url('../font/동그라미재단M.ttf')  format('truetype'); /* IE9 Compat Modes */
+}
+
+body{
+	margin:0;
+}
+div{
+	box-sizing:border-box;
+}
+header{
+	width:100%;
+	background-color:#fff7d6;
+}
+
+section{
+	font-family:동그라미재단M.ttf;
+	width:1080px;
+	height:auto;
+	display:inline-block;
+}
+
+aside{
+	position: fixed;
+    top:130px;
+    right: 0;
+	width:130px;
+	height:500px;
+	background-image:url("../img/aside.png");
+	background-repeat:no-repeat;
+	display:inline-block;
+	float:right;
+}
+#wrapper{
+	width:1080px;
+	height:auto;
+	margin:0 auto;
+}
+.topBox2_yj{
+	width:90px;
+	height:30px;
+	border:2px bold black;
+	border-radius:10px;
+	font-size : 13px;
+	margin:0 5px;
+	cursor:pointer;
+	background-color : #fff7d6;	
+	font-weight: bold;
+	
+}
+
+.topBox3_yj{
+	width:1080px;
+	height:70px;
+	text-align:center;
+}
+
+.topBox4_yj{
+	width:1080px;
+	height:50px;
+	background-image:url("../img/ribon.png");
+	background-repeat:no-repeat;
+	background-position: center; 
+	text-align:center;
+	overflow: hidden;
+}
+
+.topBox5_yj{
+	text-decoration:none;
+	font-size:20px;
+	color:white;
+	width:200px;
+	height:45px;
+	/* border-left:2px  solid white; */
+	float:left;
+	margin-left:60px;
+	margin-top:15px;
+	font-style : bold;
+	cursor: pointer;
+}
+
+.topBox6_yj{
+	width:700px;
+	height:48px;
+	border:1px black solid;
+	margin:0 auto;
+}
+
+.allContent{
+	background-color: wheat;
+	width:100%;
+	height:auto;
+}
+
+.contents{
+	width:1080px;
+	height:900px;
+	background-color: wheat;
+}
+
+
+.loginBox1_yj{
+	width:300px;
+	height:80px;
+	display:inline-block;
+}
+.loginBox2_yj{
+	width:100px;
+	height:80px;
+	display:inline-block;
+}
+.loginBox3_yj{
+	width:400px;
+	height:150px;
+	clear:both;
+	text-align:left;
+}
+.loginBox4_yj{
+	margin:0 auto;
+	width:500px;
+	height:500px;
+	clear:both;
+	text-align:center;
+	padding-top: 150px;
+}
+.insertbtn_yj{
+	margin:5px;
+	width:60px;
+	height:60px;
+	background-color :  wheat;
+	border : 2px solid gray;
+	font-weight:bold;
+}
+.insertbtn2_yj{
+	width:280px;
+	height:25px;
+	margin:5px;
+}
+
+.insertBox1_yj{
+	width:750px;
+	height:200px;	
+	margin:10px 20px;
+	background-color :  wheat;
+}
+
+
+.insertBox2_yj{
+	width:120px;
+	height:80px;	
+}
+
+.insertBox3_yj{
+	width:420px;
+	height:80px;	
+}
+
+.insertBox4_yj{
+	margin:20px 0;
+	width:150px;
+	height:680px;
+	float:left;	
+}
+.insertBox5_yj{
+	margin:20px 0;
+	width:450px;
+	height:680px;	
+	float:left;
+}
+.insertBox6_yj{
+	width:300px;
+	height:80px;	
+	clear:both;
+	margin:0 auto;
+	text-align:center;
+}
+.insertBox7_yj{
+	width:610px;
+	height:700px;
+	margin:30px auto;	
+}
+.insertBox8_yj{
+	width:800px;
+	height:600px;
+	background:#fff7d6;	
+	border-radius:20px;
+	margin:0 auto;
+}
+
+
+.asideBox1_yj{
+	margin:10px;
+	width:60px;
+	height:60px;
+}
+.asideBox2_yj{
+	position:relative;
+	top:30px;
+	left:15px;
+	width:85px;
+	height:420px;
+}
+.a01_yj{
+	color:white;
+	text-decoration:none;
+	text-align:center;
+}
+.asideBox3_yj{
+	width:80px;
+	height:100px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.asideBox4_yj{
+	width:80px;
+	height:100px;
+	text-align:center;
+	margin-bottom:10px;
+	font-size:13px;
+}
+.asideBox5_yj{
+	width:80px;
+	height:80px;
+	text-align:center;
+	margin-bottom:10px;
+	font-size:20px;
+	font-width:10px;
+	padding: 15px 0;
+	color:black;
+}
+
+.deleteBox1_yj{
+	width:800px;
+	height:800px;
+}
+.deleteBox2_yj{
+	width:700px;
+	height:100px;
+	margin:0 auto;
+}
+.deleteBox3_yj{
+	width:700px;
+	height:200px;
+	margin:0 auto;
+}
+
+.textDecoNone_yj{
+	text-decoration:none;
+}
+
+/* ====================== 시작: 광민이 style=================*/
+.bottomBox1_yj{
+	width:100;
+	height:80px;
+}
+
+.bottomBox2_yj{
+	margin:0 auto;
+	width:1080px;
+	height:80px;
+	/* border:1px black solid; */	
+}
+
+.bottomBox3_yj{
+	margin-top : 5px;
+	margin-right:200px;
+	width:250px;
+	height:85px;
+	padding-left : 15px;
+	/* border:1px black solid; */
+	float:left;
+	color : gray;
+	font-size : 15pt;
+}
+.bottomBox4_gm {
+	width : 600px;
+	height : 90px;
+	/* border: 1px solid black; */
+	float:left;
+}
+.bottomTB_gm {
+	width : 600px;
+	border : none;
+	border-collapse: collapse;
+	
+}
+.bottomTd_gm {
+	width: 200px;
+	border : none;
+	border-bottom: 1px solid black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.total_gm{
+	text-align: left;
+	color : red;
+	font-size: 35pt;
+	padding-left: 60px;
+	float: left;
+	border: none;
+}
+
+.cart_gm {
+	width: 1000px;  height: auto;
+	margin : 0 auto;
+	background : white;
+	padding : 20px;
+	margin-bottom: 20px;
+}
+.table_gm { 
+	border-collapse: collapse; 
+    border: 2px solid gray;
+    margin : 0 auto;
+    width : 900px;
+}
+.td_gm {
+	text-align: center;
+	height: 70px;
+	background: white;
+}
+.top_gm {
+	background: wheat;
+	height : 50px;
+	text-align: center;
+}
+
+.baedal_gm {
+	width:480px; height: auto;
+	float: left;
+	background: white;
+	margin-left: 40px;
+}
+.pay_gm {
+	width:480px; height: auto;
+	float: left;
+	background: white;
+	margin-left: 40px;
+}
+.input_tel_gm {
+	width: 50px; 
+	height: 20px;
+}
+
+.title_gm {
+	margin-top : 10px;
+	margin-bottom : 25px;
+	text-align: center;
+	font-size: 25pt;
+	color : #e65312;
+}
+
+.cancel_gm {
+	border : 2px solid #5587ED;
+	color : #5587ED;
+	background-color: white;
+	cursor : pointer;
+	font-size:12pt;
+	font-weight: bold;
+	width: 70px;
+	height: 35px;
+}
+.cancel_gm:hover {
+	border : 2px solid #5587ED;
+	background-color: #5587ED;
+	color : white;
+}
+
+.su_gm{
+	width : 60px;
+	height : 35px;
+	cursor : pointer;	
+}
+.su:hover {
+	border : 2px solid #5587ED;
+}
+
+.select_gm {
+	border-collapse: collapse;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+}
+
+.buy_gm {
+	background : white;
+	width: 150px;
+	height: 60px;
+	color : red;
+	cursor: pointer;
+	border : 3px solid red;
+	font-weight: bold;
+	font-size : 15pt;
+}
+.buy_gm:hover {
+	background-color: red;
+	color : white;
+}
+.buyTxt_gm {
+	padding-right: 25px;
+}
+
+.WriteTB_gm{
+	border-collapse: collapse;
+	/* background-color : wheat; */
+   /* border: 1px solid black; */
+   border:none;
+   width : 750px;
+}
+.borderTD1_gm {
+	border:0px;
+	width : 120px;
+}
+
+.borderText_gm {
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+
+.borderTXTarea {
+	width: 631px;
+	height : 400px;
+	border : 1px solid gray;
+	resize: none;
+}
+
+.a_gm {
+	width : 180px;
+	height : 760px;;
+	border-right: 1px solid black;
+	float : left;
+	margin-right: 15px;
+}
+.b_gm {
+	text-align: center;
+	text-decoration: none;
+}
+.boardTitle_gm {
+	text-align:center;
+	font-size: 20pt;
+	color : #e65312;
+}
+.boardbg_gm {
+	width: 1000px;  height: 800px;
+	margin : 0 auto;
+	background : #fff7d6;
+	padding : 20px;
+	margin-bottom: 20px;
+	border-radius:20px;
+}
+.boardTB_gm {
+	border-collapse: collapse;
+	width : 700px;
+	margin : 0 auto;
+	border : 2px solid gray;
+}
+.boardTH_gm {
+	background: wheat;
+	height : 25px;
+}
+.boardwritelist {
+	float: right;
+	margin-right: 20px;	
+	cursor: pointer;
+	margin-top: 15px;
+	background-color :  wheat;
+	border : 2px solid gray;
+	font-weight:bold;
+}
+.writebg_gm {
+	width : 800px;
+	height : 800px;
+	border : 1px solid black;
+	background-color : wheat;
+}
+
+/* ----------------- 시작: 정훈이 style--------------------*/
+.head_jh{
+	text-align: center;
+	margin: 50px 0px 100px 0px;
+}
+
+.a_tag_jh{
+	color: black;
+	text-decoration: none;	
+}
+.cart_jh {
+	width: 1000px;  height: auto;
+	margin : 0 auto;
+	background : white;
+	padding : 20px;
+}
+.MPtable_jh{
+	border-collapse: collapse; 
+    border: 5px dotted black;
+    margin : 0 auto;
+    width : 500px;
+}
+.MPtd_jh{
+	text-align: center;
+	width : 50px;
+	height: 120px;
+	border:5px dotted black;
+}
+.MRtable_jh{ 
+	border-collapse: collapse; 
+     border: 2px solid gray; 
+    margin : 0 auto;
+    width : 700px;
+}
+.MRth_jh{
+	text-align: center;
+	height: 60px;
+	background: wheat;
+}
+.MRtd_jh{
+	text-align: center;
+	height: 60px;
+}
+.MRh1_jh{
+	text-align: center;
+	color : orange;
+}
+.button_jh{
+	text-align: right;
+}
+.select_jh {
+	border-collapse: collapse;
+	width: 150px;
+	height: 60px;
+	text-align: center;
+}
+
+.buy_jh {
+	background : white;
+	width: 150px;
+	height: 60px;
+	color : red;
+	cursor: pointer;
+	border : 3px solid red;
+	font-weight: bold;
+	font-size : 15pt;
+}
+.total_jh{
+	text-align: left;
+	color : red;
+	font-size: 35pt;
+	padding-left: 60px;
+	float: left;
+	border: none;
+}
+.cart_buttom_jh {
+	width: 1000px;  height: auto;
+	margin : 0 auto;
+	background : white;
+	padding : 20px;
+	margin-bottom: 20px;
+}
+
+/*-----------------------원석이 style---------------------- */
+
+.mySlides_ws {display:none}
+.img_ws { margin: 0 auto;}
+
+/* Slideshow container */
+.slideshow-container_ws {
+  max-width: 950px;
+  position: relative;
+  margin: auto;
+}
+
+/*화살표*/
+.prev_ws, .next_ws {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+
+.next_ws {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 점 */
+.dot_ws{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active_ws, .dot_ws:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade_ws {
+  -webkit-animation-name: fade_ws;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade_ws;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade_ws {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade_ws {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev_ws, .next_ws,.text_ws {font-size: 11px}
+}
+
+.box1_ws{
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 750px;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        box-shadow:  5px 5px 5px black;      
+    }
+   .p_ws{text-align: center;
+    font-size : 30px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+    
+    }
